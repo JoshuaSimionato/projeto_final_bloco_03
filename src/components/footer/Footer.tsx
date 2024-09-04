@@ -6,19 +6,20 @@ function Footer() {
 
     return (
         <>
-            <div className="flex justify-center bg-slate-800 text-white">
-                <div className="flex flex-col items-center py-4 container">
-                    <p className='font-bold text-xl'>Farmácia JS | Copyright: {data}</p>
-                    <p className='text-lg'>Acesse nossas redes sociais</p>
-                    <div className='flex gap-2'>
-                        
-                            <LinkedinLogo size={48} weight='bold' />
-
-                        
-                            <InstagramLogo size={48} weight='bold' />
-                        
-                            <FacebookLogo size={48} weight='bold' />
-
+            <div className="flex justify-center bg-green-600 text-white">
+                <div className="flex flex-col items-center py-6 container">
+                    <p className='font-bold text-xl mb-2'>Farmácia JS | Copyright: {data}</p>
+                    <p className='text-lg mb-4'>Acesse nossas redes sociais</p>
+                    <div className='flex gap-4'>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <LinkedinLogo size={40} weight='bold' className="hover:text-blue-500 transition duration-300"/>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <InstagramLogo size={40} weight='bold' className="hover:text-pink-500 transition duration-300"/>
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <FacebookLogo size={40} weight='bold' className="hover:text-blue-700 transition duration-300"/>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -26,4 +27,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer;
