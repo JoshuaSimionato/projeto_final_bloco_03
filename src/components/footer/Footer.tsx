@@ -6,8 +6,8 @@ function Footer() {
 
     return (
         <>
-            <div className="flex justify-center bg-green-600 text-white">
-                <div className="flex flex-col items-center py-6 container">
+            <div className="flex justify-center bg-green-600 text-white w-full">
+                <div className="flex flex-col items-center py-6 container w-full">
                     <p className='font-bold text-xl mb-2'>Farmácia JS | Copyright: {data}</p>
                     <p className='text-lg mb-4'>Acesse nossas redes sociais</p>
                     <div className='flex gap-4'>
